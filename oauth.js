@@ -27,7 +27,7 @@ code.get("/github", async ctx => {
     }
   });
   ctx.response.redirect(
-    `http://192.168.43.222:10086/pages/my/index?name=${result.data.name}&avatar=${result.data.avatar_url}&token=${accessToken}`
+    `http://taro.shtodream.cn/pages/my/index?name=${result.data.name}&avatar=${result.data.avatar_url}&token=${accessToken}`
   );
 });
 
